@@ -33,7 +33,7 @@ fingerprint-matchmaking/
 │   │   ├── Altered-Medium/
 │   │   └── Altered-Hard/
 ├── fingerprint_matching.py
-├── README.md
+├── README.md.
 
 3. Install Dependencies
 Ensure you have Python installed (preferably Python 3.8 or higher). Install the required libraries using the following command:
