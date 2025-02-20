@@ -18,7 +18,7 @@ Clone this repository to your local machine using the following command:
 
 bash
 Copy
-git clone https://github.com/your-username/fingerprint-matchmaking.git
+git clone https://github.com/arjunmuthukumar/fingerprint-matchmaking.git
 cd fingerprint-matchmaking
 2. Download the Dataset
 Download the SOCOFing dataset from the provided Google Drive link.
