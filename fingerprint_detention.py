@@ -2,8 +2,8 @@ import os
 import cv2
 
 # Use a known matching pair
-sample_path = r"C:\Users\arjun\OneDrive\Desktop\fingerprint_detention\SOCOFing\Altered\Altered-Hard\1__M_Right_index_finger_Obl.BMP"
-real_image_path = r"C:\Users\arjun\OneDrive\Desktop\fingerprint_detention\SOCOFing\Real\1__M_Left_index_finger.BMP"
+sample_path = r"data/Altered/Altered-Hard/1__M_Right_index_finger_Obl.BMP"
+real_image_path = r"data/Real/1__M_Left_index_finger.BMP"
 
 # Load the sample and real images
 sample = cv2.imread(sample_path)
