@@ -2,7 +2,7 @@ Fingerprint Matchmaking Using Deep Learning.
 
 This project focuses on fingerprint matching using SIFT (Scale-Invariant Feature Transform) and FLANN-based matching techniques. The goal is to match fingerprint images from the SOCOFing dataset and calculate a matching score based on keypoint similarities.
 
-Dataset
+Dataset:
 The dataset used in this project is the SOCOFing dataset, which contains 6,000 fingerprint images, including real and altered fingerprints. You can download the dataset from the following link:
 
 📂 Dataset Link: https://drive.google.com/file/d/19t-81kgHMuBrx7Mxieb6ihQPIHpEEXSe/view?usp=sharing
