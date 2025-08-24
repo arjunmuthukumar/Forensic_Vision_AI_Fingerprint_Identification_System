@@ -8,7 +8,7 @@ The dataset used in this project is the SOCOFing dataset, which contains 6,000 f
 📂 Dataset Link: https://drive.google.com/file/d/19t-81kgHMuBrx7Mxieb6ihQPIHpEEXSe/view?usp=sharing
 
 Dataset Structure
-Real Fingerprints: High-quality, unaltered fingerprint images.
+Real Fingerprints: High-quality, unaltered fingerprint images
 
 Altered Fingerprints: Fingerprint images with various alterations (e.g., rotation, scaling, noise) to simulate real-world scenarios.
 
