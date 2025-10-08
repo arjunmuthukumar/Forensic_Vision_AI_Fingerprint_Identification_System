@@ -17,31 +17,33 @@ data/
 ⚙️ Setup
 1.Clone the repo:
 
--git clone https://github.com/arjunmuthukumar/Forensic_Vision_AI_Fingerprint_Identification_System.git
--cd Forensic_Vision_AI_Fingerprint_Identification_System
-
+    -git clone https://github.com/arjunmuthukumar/Forensic_Vision_AI_Fingerprint_Identification_System.git
+    -cd Forensic_Vision_AI_Fingerprint_Identification_System
 2.Install dependencies:
 bash
--git clone https://github.com/arjunmuthukumar/Forensic_Vision_AI_Fingerprint_Identification_System.git
--cd Forensic_Vision_AI_Fingerprint_Identification_System
+
+    -git clone https://github.com/arjunmuthukumar/Forensic_Vision_AI_Fingerprint_Identification_System.git
+    -cd Forensic_Vision_AI_Fingerprint_Identification_System
 
 3.Add the dataset to the data/ folder (as shown above).
 
 
 ▶️ Run
 Edit fingerprint_matching.py to set your image paths:
--sample_path = "data/Altered/Altered-Hard/1__M_Right_index_finger_Obl.BMP"
--real_image_path = "data/Real/1__M_Right_index_finger.BMP"
+
+    -sample_path = "data/Altered/Altered-Hard/1__M_Right_index_finger_Obl.BMP"
+    -real_image_path = "data/Real/1__M_Right_index_finger.BMP"
 
 
 Then run:
--python fingerprint_matching.py
+
+    -python fingerprint_matching.py
 
 
 The script will:
 
--Detect and match fingerprint keypoints
--Show a matching score (%)
+    -Detect and match fingerprint keypoints
+    -Show a matching score (%)
 Display matched keypoints in a window
 
 📜 License
