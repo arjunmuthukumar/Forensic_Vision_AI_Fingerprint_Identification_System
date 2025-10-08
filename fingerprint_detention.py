@@ -35,6 +35,7 @@ keypoints = min(len(keypoints_1), len(keypoints_2))
 if keypoints == 0:
     print("No keypoints detected.")
 else:
+    
     match_score = len(match_points) / keypoints * 100
     print(f"Matching Score: {match_score}")
 
@@ -43,3 +44,4 @@ result = cv2.drawMatches(sample, keypoints_1, real_image, keypoints_2, match_poi
 cv2.imshow("Matches", result)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
